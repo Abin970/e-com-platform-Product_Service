@@ -11,4 +11,6 @@ public interface IProductService {
 
     List<Product> getAllProducts();
 
+    Product replaceProduct(Product input,Long id);
+
 }
